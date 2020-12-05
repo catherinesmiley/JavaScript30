@@ -58,7 +58,15 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
+  window.addEventListener("keypress", function(event) {
+    if (event.defaultPrevented) {
+      return;
+    }
 
+    switch (event.key) {
+      
+    }
+  })
 </script>
 
 
